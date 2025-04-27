@@ -175,6 +175,21 @@
   },
   "active": "2d8837e6263008e3",
   "lastOpenFiles": [
+    "Assets/Transactions.svg",
+    "Assets/Table.svg",
+    "Assets/Supplier.svg",
+    "Assets/Stock.svg",
+    "Assets/Shifts.svg",
+    "Assets/Restock_Request.svg",
+    "Assets/Reservations.svg",
+    "Assets/Payments.svg",
+    "Assets/Orders.svg",
+    "Assets/Menu_Items.svg",
+    "Assets/Ingredients.svg",
+    "Assets/Final Model.pdf",
+    "Assets/Basic Model.pdf",
+    "Assets/Arranged Model.pdf",
+    "Assets",
     "Normalization/Step-wise normal form.md",
     "Normalization/Normalization process.md",
     "Normalization/Anomalies.md",
@@ -205,11 +220,6 @@
     "DFDs/DFD Level 0.md",
     "DFDs",
     "Core entities/Unnormalized Form.md",
-    "Core entities/Conceptual Design.md",
-    "Core entities",
-    "Stages/6 Relationships.md",
-    "Stages",
-    "Basic ER",
-    "category-folder/Basic ER"
+    "Core entities/Conceptual Design.md"
   ]
 }
