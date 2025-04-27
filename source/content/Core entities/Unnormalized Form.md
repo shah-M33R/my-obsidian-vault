@@ -1,0 +1,131 @@
+# Employees:
+![[Employees.svg]]
+- Employee_ID
+- Name
+- Phone_Numbers
+- Emails
+- Roles
+- Status
+
+# Shifts:
+![[Shifts.svg]]
+- Shift_ID
+- Employee
+- Shift_Start
+- Shift_End
+- Shift_Type
+
+# Customers:
+![[Customers.svg]]
+- Customer_ID
+- Address_ID
+- Name
+- Phone_Numbers
+- Emails
+- Full Address
+
+# Orders:
+![[Orders.svg]]
+- Order_ID
+- Customer_Info
+- Order_Date
+- Order_Status (Pending, Preparing, Ready for Pickup/Delivery, Completed, Cancelled)
+- Order_Type (Dine-in, Drive-Thru, Delivery)
+- Items_Info
+- Discounted_Amount
+- Order_Total
+
+# Menu_Items:
+![[Menu_Items.svg]]
+- MenuItem_ID
+- Category
+- Name
+- Description
+- Price
+- Availability
+
+# Ingredients:
+![[Ingredients.svg]]
+- Ingredient_ID
+- Name
+- Availability
+- Menu_Items
+
+# Stock:
+![[Stock.svg]]
+- Stock_ID
+- Ingredient_Info
+- Stock_Level
+- Supplier_Info
+
+# Supplier:
+![[Supplier.svg]]
+- Supplier_ID
+- Name
+    - Phone_Number
+    - Email
+- Address
+
+# Restock Request:
+![[Restock_Request.svg]]
+- Restock_ID
+- Ingredients
+- Supplier
+- Quantity_Requested
+- Requested_Date
+- Request_Status (Pending, Approved, Scheduled, Cancelled)
+- Expected_Arrival_Date
+
+# Delivery:
+![[Delivery.svg]]
+- Delivery_ID
+- Order
+- Service
+- Fee
+- Delivery_Status (Assigned, Picked Up, In Transit, Delivered, Failed)
+
+# Delivery Service:
+![[Delivery_Service.svg]]
+- Service_ID
+- Name
+- Service_Type (Third-Party or In-House)
+- Contact
+
+# Tables:
+![[Table.svg]]
+- Table_ID
+- Capacity
+- Availability
+
+# Reservations:
+![[Reservations.svg]]
+- Res_ID
+- Customer
+- Table
+- Res_Date
+- Res_Time
+- Request_Status
+
+# Discounts:
+![[Discounts.svg]]
+- Discount_ID
+- Description
+- Discount_Type (Order, Delivery)
+- Value_Type (Fixed, Percentage)
+- Value
+
+
+# Transactions:
+![[Transactions.svg]]
+- Transaction_ID
+- Order_ID
+- Total_Info
+
+# Payments:
+![[Payments.svg]]
+- Payment_ID
+- Transaction_ID
+- Final_Amount
+- Payment_Method
+- Payment_Status
+[[Conceptual Design]]
