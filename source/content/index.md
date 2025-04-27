@@ -1,7 +1,5 @@
 ---
-title: My GitHub Pages Notebook!
+title: Restaurant Management System!
 ---
 
-Hello world!
-
-Write some words here!
+Click on the indices to navigate

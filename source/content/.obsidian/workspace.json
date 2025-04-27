@@ -1,30 +1,34 @@
 {
   "main": {
-    "id": "2e9225e34664efd4",
+    "id": "fc0aacbf5c25ff7d",
     "type": "split",
     "children": [
       {
-        "id": "0571c1c94d829fac",
+        "id": "4ee16aba28984f07",
         "type": "tabs",
         "children": [
           {
-            "id": "47ef711f7e8c1d64",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          },
-          {
-            "id": "2d8837e6263008e3",
+            "id": "2f336ef3b4c90fcb",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
+            }
+          },
+          {
+            "id": "cb068a1f3d06ef96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stages/6 Relationships.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6 Relationships"
             }
           }
         ],
@@ -34,15 +38,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1243752a4df710bb",
+    "id": "d39cf7233b1adcea",
     "type": "split",
     "children": [
       {
-        "id": "8a4c81639dc8783e",
+        "id": "99b751bdfb6e7c1f",
         "type": "tabs",
         "children": [
           {
-            "id": "b77831b90dd9f87b",
+            "id": "68e1d204f26d2c8a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -55,7 +59,7 @@
             }
           },
           {
-            "id": "0829eb50dbb8a2b3",
+            "id": "c2cecb116eedbd08",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -72,7 +76,7 @@
             }
           },
           {
-            "id": "436d75c49c949463",
+            "id": "e2e79406e792273f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,49 +89,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 324.5
   },
   "right": {
-    "id": "ba1ec06a672fb227",
+    "id": "01cfcf7fbe5c53ba",
     "type": "split",
     "children": [
       {
-        "id": "6cea78168fbf9ccd",
+        "id": "be2526a98d70287e",
         "type": "tabs",
         "children": [
           {
-            "id": "2aa5a4c073617928",
+            "id": "c96610f08247b2e4",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ERD/Advanced ERD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Advanced ERD"
             }
           },
           {
-            "id": "5acb7020384970a8",
+            "id": "29b87b10af0b1d0f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
-            "id": "f850ba7e9e699bea",
+            "id": "1f702b3518646cf6",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,17 +148,18 @@
             }
           },
           {
-            "id": "2d9129bb8dcf7983",
+            "id": "ae8971c77d08ea64",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "ERD/Advanced ERD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Advanced ERD"
             }
           }
         ]
@@ -169,42 +176,28 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "2d8837e6263008e3",
+  "active": "cb068a1f3d06ef96",
   "lastOpenFiles": [
-    "Assets/Transactions.svg",
-    "Assets/Table.svg",
-    "Assets/Supplier.svg",
-    "Assets/Stock.svg",
-    "Assets/Shifts.svg",
-    "Assets/Restock_Request.svg",
-    "Assets/Reservations.svg",
-    "Assets/Payments.svg",
-    "Assets/Orders.svg",
-    "Assets/Menu_Items.svg",
-    "Assets/Ingredients.svg",
-    "Assets/Final Model.pdf",
-    "Assets/Basic Model.pdf",
-    "Assets/Arranged Model.pdf",
-    "Assets",
+    "Stages/4 Decision Flows.md",
+    "Stages/3 Attributes.md",
+    "Stages/2 Entities.md",
+    "Stages/1 Requirements.md",
+    "Stages/0 Visit.md",
+    "Stages/-1 Overview.md",
     "Normalization/Step-wise normal form.md",
     "Normalization/Normalization process.md",
     "Normalization/Anomalies.md",
-    "Normalization",
     "Groups/Stages.md",
-    "Groups/Documentation.md",
-    "Groups",
     "Extra/Employees Heirarchy.md",
+    "Groups/Documentation.md",
     "Extra/Cascading Rules.md",
-    "Extra",
     "ERD/Identifying vs. Non-Identifying Relationships.md",
     "ERD/Color-Coding.md",
     "ERD/Cardinalities.md",
     "ERD/Advanced ERD.md",
-    "ERD",
     "Documentation/6 Anomalies and Normalization.md",
     "Documentation/5 Logical Design.md",
     "Documentation/4 Conceptual Design.md",
@@ -212,14 +205,29 @@
     "Documentation/2 Requirements Analysis.md",
     "Documentation/1 Introduction.md",
     "Documentation/0 Proper Flow.md",
-    "Documentation",
     "DFDs/Process to Process.md",
     "DFDs/Process to DatStores.md",
-    "DFDs/Entity to Process.md",
-    "DFDs/DFD Level 1.md",
-    "DFDs/DFD Level 0.md",
-    "DFDs",
-    "Core entities/Unnormalized Form.md",
-    "Core entities/Conceptual Design.md"
+    "Assets/Arranged Model.pdf",
+    "Groups",
+    "Documentation/Untitled.canvas",
+    "Documentation",
+    "Assets/Final Model.pdf",
+    "Assets/Reservations.svg",
+    "Assets/Basic ER.svg",
+    "Assets",
+    "Assets/Payments.svg",
+    "Assets/Transactions.svg",
+    "Assets/Discounts.svg",
+    "Assets/Table.svg",
+    "Assets/Delivery_Service.svg",
+    "Assets/Delivery.svg",
+    "Assets/Restock_Request.svg",
+    "Assets/Supplier.svg",
+    "Assets/Basic Model.pdf",
+    "Visit",
+    "ERD",
+    "Basic ER",
+    "Normalization",
+    "ER Diagram.canvas"
   ]
 }

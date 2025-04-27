@@ -1,0 +1,13 @@
+.callout[data-callout="sidenote"] {
+  float: right; /* Or left */
+  width: 100%; /* Adjust width as needed */
+  margin-left: 1em;
+margin-top: 1em;
+  font-size: 0.8em; /* Adjust font size as needed */
+  border: 1px solid #ccc; /* Optional border */
+  padding: 0.5em; /* Optional padding */
+}
+
+.callout[data-callout="sidenote"] p {
+  margin: 0;
+}

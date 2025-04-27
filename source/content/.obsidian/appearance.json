@@ -1,1 +1,7 @@
-{}
+{
+  "cssTheme": "Obsidianite",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "sidenotes"
+  ]
+}
