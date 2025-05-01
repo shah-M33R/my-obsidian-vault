@@ -1,13 +1,70 @@
-# Final Database Structure
+## Normalization Process
 
-The final database structure achieves 3NF normalization with properly separated entities, clear relationships, eliminated redundancies, and protection against the three types of anomalies. The structure allows for:
+### First Normal Form (1NF)
 
-1. Independent management of core business entities
-2. Flexible relationship modeling through junction tables
-3. Centralized management of common attributes like addresses and contacts
-4. Proper historical tracking of transactions and orders
-5. Scalable inventory and stock management
-## Employee Management Module
+To achieve 1NF, we eliminated repeating groups and ensured all attributes contain atomic values:
+
+1. **Employee Table Split**:
+    - Separated composite Name attribute into First_Name and Last_Name
+    - Created separate Contact table to handle multiple phone numbers and emails
+    - Created Employee_Role junction table to handle multiple roles per employee
+2. **Address Normalization**:
+    - Created separate Address entity to handle address information for multiple entity types
+    - Entity_Type attribute distinguishes between Customer, Supplier, and other address owners
+3. **Order Items Separation**:
+    - Separated order items into Order_Item table to eliminate repeating groups of items in orders
+4. **Menu Item Ingredients**:
+    - Created Dish_Ingredients junction table to handle multiple ingredients per menu item
+
+### Second Normal Form (2NF)
+
+To achieve 2NF, we ensured that all non-key attributes are fully dependent on the entire primary key:
+
+1. **Order Discount Separation**:
+    - Created Order_Discount junction table where each discount application is fully dependent on both Order_ID and Discount_ID
+2. **Stock Management**:
+    - Created separate Stock entity where stock levels are dependent on both Ingredient_ID and Supplier_ID
+3. **Employee Role Junction**:
+    - Created Employee_Role junction table where role assignments are dependent on both Employee_ID and Role_ID
+4. **Menu Categories**:
+    - Separated Category table from Menu_Item to eliminate partial dependencies
+
+### Third Normal Form (3NF)
+
+To achieve 3NF, we eliminated transitive dependencies:
+
+1. **Payment Processing**:
+    - Separated Payment from Transaction to eliminate dependency between Payment_Method/Status and Transaction_ID
+2. **Delivery Management**:
+    - Created separate Delivery_Service and Delivery_Fee tables to eliminate transitive dependencies in delivery information
+3. **Address Management**:
+    - Centralized address information in Address table to prevent redundancy across Customer and Supplier entities
+4. **Contact Information**:
+    - Centralized contact information in Contact table to eliminate redundancy and transitive dependencies
+
+## Detecting and Resolving Anomalies
+
+### Insertion Anomalies Resolved
+
+1. **Before Normalization**: Could not add a new supplier without associating with at least one ingredient. **After Normalization**: Can add suppliers independently in the Supplier table.
+2. **Before Normalization**: Could not add a new menu item without assigning ingredients. **After Normalization**: Can add menu items independently in the Menu_Item table.
+3. **Before Normalization**: Could not add a customer without an order. **After Normalization**: Can add customers independently in the Customer table.
+
+### Update Anomalies Resolved
+
+1. **Before Normalization**: Updating a supplier's address required changes in multiple places. **After Normalization**: Address updated once in the Address table.
+2. **Before Normalization**: Changing a menu item's price required updates across multiple orders. **After Normalization**: Price stored only in Menu_Item table.
+3. **Before Normalization**: Employee contact information updates required multiple changes. **After Normalization**: Contact information centralized in Contact table.
+
+### Deletion Anomalies Resolved
+
+1. **Before Normalization**: Deleting an order would lose customer information. **After Normalization**: Customer information preserved independently in Customer table.
+2. **Before Normalization**: Removing a menu item would lose ingredient information. **After Normalization**: Ingredient information preserved independently in Ingredient table.
+3. **Before Normalization**: Deleting an employee would lose role information. **After Normalization**: Role information preserved independently in Role table.
+
+## Finalized Entities and Attributes
+
+### Employee Management Module
 
 #### Employee
 
@@ -44,7 +101,7 @@ The final database structure achieves 3NF normalization with properly separated 
 |Shift_End|DATETIME|Not Null|
 |Shift_Type|VARCHAR(20)|Not Null|
 
-## External Information Management Module
+### External Information Management Module
 
 #### Address
 
@@ -69,7 +126,7 @@ The final database structure achieves 3NF normalization with properly separated 
 |Contact_Type|VARCHAR(20)|Not Null|
 |Contact_Value|VARCHAR(255)|Not Null|
 
-## Menu and Ingredients Module
+### Menu and Ingredients Module
 
 #### Category
 
@@ -106,7 +163,7 @@ The final database structure achieves 3NF normalization with properly separated 
 |Quantity_Required|DECIMAL(10,2)|Not Null|
 |Unit_Of_Measure|VARCHAR(20)|Not Null|
 
-## Order Management Module
+### Order Management Module
 
 #### Order
 
@@ -150,7 +207,7 @@ The final database structure achieves 3NF normalization with properly separated 
 |Discount_ID|VARCHAR(10)|Foreign Key|
 |Applied_Amount|DECIMAL(10,2)|Not Null|
 
-## Billing Management Module
+### Billing Management Module
 
 #### Transaction
 
@@ -173,7 +230,7 @@ The final database structure achieves 3NF normalization with properly separated 
 |Payment_Method|VARCHAR(30)|Not Null|
 |Payment_Status|VARCHAR(20)|Default 'Pending'|
 
-## Delivery Management Module
+### Delivery Management Module
 
 #### Delivery_Service
 
@@ -201,7 +258,7 @@ The final database structure achieves 3NF normalization with properly separated 
 |Fee_ID|VARCHAR(10)|Foreign Key|
 |Delivery_Status|VARCHAR(20)|Default 'Pending'|
 
-## Inventory Management Module
+### Inventory Management Module
 
 #### Supplier
 
@@ -232,7 +289,7 @@ The final database structure achieves 3NF normalization with properly separated 
 |Request_Status|VARCHAR(20)|Default 'Pending'|
 |Expected_Arrival|DATE|Nullable|
 
-## Tables and Reservation Module
+### Tables and Reservation Module
 
 #### Table
 
@@ -253,7 +310,7 @@ The final database structure achieves 3NF normalization with properly separated 
 |Res_Time|TIME|Not Null|
 |Request_Status|VARCHAR(20)|Default 'Pending'|
 
-## Customer Management Module
+### Customer Management Module
 
 #### Customer
 
@@ -263,3 +320,9 @@ The final database structure achieves 3NF normalization with properly separated 
 |Address_ID|VARCHAR(50)|Foreign Key|
 |First_Name|VARCHAR(50)|Not Null|
 |Last_Name|VARCHAR(50)|Not Null|
+
+## Advanced ERD (MySQL Workbench)
+
+[Note: Insert your Advanced ERD here showing cardinalities and all relationships]
+
+#Documentation

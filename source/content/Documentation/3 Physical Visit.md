@@ -27,7 +27,6 @@ A clear organizational structure was identified, though not all roles were direc
 - **Restaurant Manager**: Overall responsibility for restaurant operations and performance
   
 ## Delivery Operations  
-
 Two different delivery service models were found:  
   
 - **McDelivery:** Internal delivery function operated directly by McDonald's  
@@ -35,8 +34,7 @@ Two different delivery service models were found:
   
 ## Order and Payment Systems
 
-- Highly digitized order processing system
-- State-of-the-art POS terminals with built-in payment processing  
+- Highly digitized order processing systemState-of-the-art POS terminals with built-in payment processing  
 - QR code scanning function for app ordering and promotions  
 - Mobile application interface for customer self-ordering  
 - Digital payments extensively used in addition to cash payments

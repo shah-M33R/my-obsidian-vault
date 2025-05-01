@@ -1,4 +1,8 @@
-# Core Business Entity Relationships
+# Core Business Entity Relationship Diagram
+
+I've created an ER diagram showing the key entities in your restaurant management system and their relationships using the traditional Chen notation (rectangles for entities and diamonds for relationships).
+
+## Main Entities and Their Relationships
 
 ### Employee Management
 
@@ -39,4 +43,6 @@
 
 - **TABLES (1) — HAS → (M) RESERVATION** One table can have multiple reservations (at different times).
 
-![[Basic ER.svg]]
+This diagram shows the core business logic and data flow in your restaurant management system. The cardinalities (1, M, N) indicate the nature of relationships between entities.
+
+[[ER Diagram]]
