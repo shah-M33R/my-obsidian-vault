@@ -9,9 +9,9 @@ title: Restaurant Management System
 
 # Submitted to:
 
-Prof. Saud Bin Tahir
-DBMS
-BSSE Regular 2nd Semester
+- Prof. Saud Bin Tahir
+- DBMS
+- BSSE Regular 2nd Semester
 
 # Table of Contents:
 
