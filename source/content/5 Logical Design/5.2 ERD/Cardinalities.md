@@ -1,3 +1,4 @@
+# Cardinalities / Relationships
 ## Employee Management
 
 1. **Employee to Employee_Role**: (1,N) ← (1,1)
@@ -111,75 +112,38 @@
     - A Table can have many Reservations (N max)
     - Each Reservation must be for exactly one Table (1,1)
 
-### **Contact Management**
+## Contact Management
 
 #### **Employee – Contact**
 
-- **Cardinality**:
-    
-    - **Employee side**: (1,1) → Each employee must have exactly one contact.
-        
-    - **Contact side**: (0,1) → Each contact belongs to at most one employee.
-        
-- **Type**: Non-identifying
-    
+- **Employee side**: (1,1) → Each employee must have exactly one contact.
+- **Contact side**: (0,1) → Each contact belongs to at most one employee.
 
 #### **Customer – Contact**
 
-- **Cardinality**:
-    
-    - **Customer side**: (1,1) → Each contact must be linked to one customer.
-        
-    - **Contact side**: (0,N) → A customer can have multiple contact persons.
-        
-- **Type**: Non-identifying
-    
+- **Customer side**: (1,1) → Each contact must be linked to one customer.
+- **Contact side**: (0,N) → A customer can have multiple contact persons.
+
 
 #### **Supplier – Contact**
 
-- **Cardinality**:
-    
-    - **Supplier side**: (1,1) → Each contact must be linked to one supplier.
-        
-    - **Contact side**: (0,N) → A supplier can have multiple contact persons.
-        
-- **Type**: Non-identifying
-    
+- **Supplier side**: (1,1) → Each contact must be linked to one supplier.
+- **Contact side**: (0,N) → A supplier can have multiple contact persons.
 
----
 
 #### **Employee – Address**
 
-- **Cardinality**:
-    
-    - **Employee side**: (1,1) → Each employee must have exactly one address.
-        
-    - **Address side**: (0,1) → Each address is tied to at most one employee.
-        
-- **Type**: Non-identifying
-    
+- **Employee side**: (1,1) → Each employee must have exactly one address.
+- **Address side**: (0,1) → Each address is tied to at most one employee.
+
 
 #### **Customer – Address**
 
-- **Cardinality**:
-    
-    - **Customer side**: (1,1) → Each address must be linked to one customer.
-        
-    - **Address side**: (0,N) → A customer can have multiple addresses.
-        
-- **Type**: Non-identifying
-    
+- **Customer side**: (1,1) → Each address must be linked to one customer.
+- **Address side**: (0,N) → A customer can have multiple addresses.
+
 
 #### **Supplier – Address**
 
-- **Cardinality**:
-    
-    - **Supplier side**: (1,1) → Each address must be linked to one supplier.
-        
-    - **Address side**: (0,N) → A supplier can have multiple addresses.
-        
-- **Type**: Non-identifying
-
-[[Identifying vs. Non-Identifying Relationships]]
-[[Color-Coding]]
-[[Advanced ERD]]
+- **Supplier side**: (1,1) → Each address must be linked to one supplier.
+- **Address side**: (0,N) → A supplier can have multiple addresses.
