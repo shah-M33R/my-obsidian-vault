@@ -40,4 +40,3 @@ The McDonald's restaurant is a quick-service food business with several se
 - Points of integration between front-of-house and back-of-house operations  
 - Shift-based staffing models with differing access requirements  
 
-#Documentation

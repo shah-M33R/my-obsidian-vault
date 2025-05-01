@@ -40,5 +40,3 @@ Two different delivery service models were found:
 - QR code scanning function for app ordering and promotions  
 - Mobile application interface for customer self-ordering  
 - Digital payments extensively used in addition to cash payments
-
-#Documentation

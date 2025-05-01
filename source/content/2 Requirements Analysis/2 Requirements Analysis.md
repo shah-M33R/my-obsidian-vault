@@ -72,5 +72,3 @@
 - Enable menu item and category growth  
 - Support growth in additional service channels in subsequent implementations
 - Enable future multi-location expansion potential
-
-#Documentation

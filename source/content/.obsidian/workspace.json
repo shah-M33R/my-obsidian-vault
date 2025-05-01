@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "4 Conceptual Design/4.1 Core Entities and Attributes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "4.1 Core Entities and Attributes"
             }
           }
         ]
@@ -170,8 +170,14 @@
   },
   "active": "68e1d204f26d2c8a",
   "lastOpenFiles": [
-    "5 Logical Design/5.1 Normalization/Identifying Anomalies.md",
+    "3 Physical Visit",
+    "2 Requirements Analysis",
+    "1 Introduction",
+    "3 Physical Visit/3 Physical Visit.md",
+    "2 Requirements Analysis/2 Requirements Analysis.md",
+    "1 Introduction/1 Introduction.md",
     "index.md",
+    "5 Logical Design/5.1 Normalization/Identifying Anomalies.md",
     "5 Logical Design/5.2 ERD/Cardinalities.md",
     "5 Logical Design/5.2 ERD/Advanced ERD.md",
     "4 Conceptual Design/4.3 DFDs",
@@ -180,8 +186,6 @@
     "4 Conceptual Design/4.2 Basic ER.md",
     "4 Conceptual Design/4.3 DFDs/DFD Level 0.md",
     "4 Conceptual Design/4.1 Core Entities and Attributes.md",
-    "3 Physical Visit.md",
-    "1 Introduction.md",
     "Documentation/4 Conceptual Design.md",
     "Documentation/0 Proper Flow.md",
     "Documentation/6 Anomalies and Normalization.md",
@@ -202,9 +206,6 @@
     "Extra/Cascading Rules.md",
     "Extra",
     "ERD/Identifying vs. Non-Identifying Relationships.md",
-    "ERD/Color-Coding.md",
-    "ERD",
-    "DFDs",
     "Documentation/Untitled.canvas",
     "0 Assets/Reservations.svg",
     "0 Assets/Basic ER.svg",
