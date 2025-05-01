@@ -1,4 +1,5 @@
 # Employees:
+
 ![[Employees.svg]]
 - Employee_ID
 - Name
@@ -8,6 +9,7 @@
 - Status
 
 # Shifts:
+
 ![[Shifts.svg]]
 - Shift_ID
 - Employee
@@ -16,6 +18,7 @@
 - Shift_Type
 
 # Customers:
+
 ![[Customers.svg]]
 - Customer_ID
 - Address_ID
@@ -25,6 +28,7 @@
 - Full Address
 
 # Orders:
+
 ![[Orders.svg]]
 - Order_ID
 - Customer_Info
@@ -36,6 +40,7 @@
 - Order_Total
 
 # Menu_Items:
+
 ![[Menu_Items.svg]]
 - MenuItem_ID
 - Category
@@ -45,6 +50,7 @@
 - Availability
 
 # Ingredients:
+
 ![[Ingredients.svg]]
 - Ingredient_ID
 - Name
@@ -52,6 +58,7 @@
 - Menu_Items
 
 # Stock:
+
 ![[Stock.svg]]
 - Stock_ID
 - Ingredient_Info
@@ -59,6 +66,7 @@
 - Supplier_Info
 
 # Supplier:
+
 ![[Supplier.svg]]
 - Supplier_ID
 - Name
@@ -67,6 +75,7 @@
 - Address
 
 # Restock Request:
+
 ![[Restock_Request.svg]]
 - Restock_ID
 - Ingredients
@@ -77,6 +86,7 @@
 - Expected_Arrival_Date
 
 # Delivery:
+
 ![[Delivery.svg]]
 - Delivery_ID
 - Order
@@ -85,6 +95,7 @@
 - Delivery_Status (Assigned, Picked Up, In Transit, Delivered, Failed)
 
 # Delivery Service:
+
 ![[Delivery_Service.svg]]
 - Service_ID
 - Name
@@ -92,12 +103,14 @@
 - Contact
 
 # Tables:
+
 ![[Table.svg]]
 - Table_ID
 - Capacity
 - Availability
 
 # Reservations:
+
 ![[Reservations.svg]]
 - Res_ID
 - Customer
@@ -107,6 +120,7 @@
 - Request_Status
 
 # Discounts:
+
 ![[Discounts.svg]]
 - Discount_ID
 - Description
@@ -116,16 +130,17 @@
 
 
 # Transactions:
+
 ![[Transactions.svg]]
 - Transaction_ID
 - Order_ID
 - Total_Info
 
 # Payments:
+
 ![[Payments.svg]]
 - Payment_ID
 - Transaction_ID
 - Final_Amount
 - Payment_Method
 - Payment_Status
-[[Conceptual Design]]
