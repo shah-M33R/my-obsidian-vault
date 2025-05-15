@@ -22,7 +22,7 @@ A clear organizational structure was identified, though not all roles were direc
 - **Cashiers**: Front-facing staff handling order entry and payment processing
 - **Kitchen Staff**: Responsible for food preparation and assembly
 - **Team Leader**: Coordinating operations between cashiers and kitchen staff
-- **Shift InCharge**: Overseeing all operations during a particular shift
+- **Shift Incharge**: Overseeing all operations during a particular shift
 - **First Assistant**: Supporting management functions and stepping in during manager absence
 - **Restaurant Manager**: Overall responsibility for restaurant operations and performance
   

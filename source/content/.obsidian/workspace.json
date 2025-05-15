@@ -11,6 +11,16 @@
             "id": "9cec9e0a59e1c958",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "f997387013b74037",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "4 Conceptual Design/4.1 Core Entities and Attributes.md",
@@ -21,7 +31,8 @@
               "title": "4.1 Core Entities and Attributes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 324.5,
+    "collapsed": true
   },
   "right": {
     "id": "01cfcf7fbe5c53ba",
@@ -168,29 +180,31 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "68e1d204f26d2c8a",
+  "active": "f997387013b74037",
   "lastOpenFiles": [
+    "4 Conceptual Design/4.2 Basic ER.md",
+    "5 Logical Design/5.1 Normalization/Normalization Process.md",
+    "5 Logical Design/5.1 Normalization/Identifying Anomalies.md",
+    "index.md",
+    "3 Physical Visit/3 Physical Visit.md",
+    "5 Logical Design/5.2 ERD/Final Entities.md",
+    "5 Logical Design/5.2 ERD/Cardinalities.md",
+    "5 Logical Design/5.2 ERD/Advanced ERD.md",
+    "5 Logical Design/5.1 Normalization/Resolved Anomalies.md",
+    "4 Conceptual Design/4.1 Core Entities and Attributes.md",
+    "4 Conceptual Design/4.3 DFDs/DFD Level 1.md",
+    "4 Conceptual Design/4.3 DFDs/DFD Level 0.md",
+    "2 Requirements Analysis/2 Requirements Analysis.md",
+    "1 Introduction/1 Introduction.md",
+    "0 Assets/Final Model.pdf",
+    "0 Assets/Basic ER.svg",
     "3 Physical Visit",
     "2 Requirements Analysis",
     "1 Introduction",
-    "3 Physical Visit/3 Physical Visit.md",
-    "2 Requirements Analysis/2 Requirements Analysis.md",
-    "1 Introduction/1 Introduction.md",
-    "index.md",
-    "5 Logical Design/5.1 Normalization/Identifying Anomalies.md",
-    "5 Logical Design/5.2 ERD/Cardinalities.md",
-    "5 Logical Design/5.2 ERD/Advanced ERD.md",
     "4 Conceptual Design/4.3 DFDs",
-    "5 Logical Design/5.2 ERD/Final Entities.md",
-    "4 Conceptual Design/4.3 DFDs/DFD Level 1.md",
-    "4 Conceptual Design/4.2 Basic ER.md",
-    "4 Conceptual Design/4.3 DFDs/DFD Level 0.md",
-    "4 Conceptual Design/4.1 Core Entities and Attributes.md",
     "Documentation/4 Conceptual Design.md",
     "Documentation/0 Proper Flow.md",
     "Documentation/6 Anomalies and Normalization.md",
-    "5 Logical Design/5.1 Normalization/Resolved Anomalies.md",
-    "5 Logical Design/5.1 Normalization/Normalization Process.md",
     "5 Logical Design/5.1 Normalization",
     "5 Logical Design/5.2 ERD",
     "5 Logical Design",
@@ -201,14 +215,11 @@
     "Normalization",
     "Groups/Stages.md",
     "Groups/Documentation.md",
-    "Groups",
     "Extra/Employees Heirarchy.md",
     "Extra/Cascading Rules.md",
-    "Extra",
     "ERD/Identifying vs. Non-Identifying Relationships.md",
     "Documentation/Untitled.canvas",
     "0 Assets/Reservations.svg",
-    "0 Assets/Basic ER.svg",
     "0 Assets/Payments.svg",
     "0 Assets/Transactions.svg",
     "0 Assets/Discounts.svg",
